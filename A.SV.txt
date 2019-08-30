@@ -1,0 +1,47 @@
+init: Procedimientos de arranque del sistema
+
+auth: Servidor de autenticación. Intercambia credenciales cuando dos servidores tratan de comunicarse entre ellos.
+
+crash: Servidor de manejo de errores. Se activa cuando una tarea recibe una señal de error irrecuperable, como un segmentation fault.
+
+exec: Cargador de ejecutables. Genera la imagen inicial de un proceso desde su imagen binaria en disco.
+
+null: implementa /dev/null y /dev/zero.
+
+pfinet: implementa el protocolo IP (versión 4).
+
+pflocal: Implementa los UNIX domain sockets.
+
+proc: Asigna estructuras de procesos a las tareas, incluyendo su PID, y gestiona sus estados.
+
+storeio: Un traductor para dispositivos de almacenamiento.
+
+symlink: Simula enlaces simbólicos en sistemas de ficheros que no los soportan.
+
+ifsock: Simula filesystem sockets en sistemas de ficheros que no los soportan.
+
+firmlink: Un firmlink es algo intermedio entre un enlace simbólico y un hardlink.
+
+term: Implementa un terminal POSIX.
+
+usermux: Implementa un directorio en el que se pueden buscar nombres de usuarios.
+
+hostmux: Directorio para buscar hosts.
+
+fwd: Punto de entrada común para buscar cualquier otro servidor.
+
+magic: Directorio para buscar información del proceso llamante.
+
+fifo: Implementa named pipes
+
+new-fifo: Implementación alternativa
+
+nfs: Implementa el Network file system de Sun.
+
+ftp: Un servidor para sistemas ftp
+
+ufs: Sistema UFS de los DVD
+
+isofs: Server para filesystems ISO, como los de los CD
+
+ext2fs: Server para istemas de archivos de tipo ext-2.
